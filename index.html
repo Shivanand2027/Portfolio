@@ -3,133 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Shivanand Thote - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <nav>
-        <h1>Shivanand Thote</h1>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <h1 class="logo">SHIVANAND THOTE</h1>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
     </nav>
 
-    <main>
-        <img src="image.png" alt="Profile Picture" width="200" height="200">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="profile-image">
+                <img src="image.png" alt="Shivanand Thote">
+            </div>
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Shivanand Thote</h1>
+                <p class="hero-title">Computer Science Engineering Student</p>
+                <p class="hero-subtitle">DevOps Intern | Tech Innovator | Problem Solver</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <h2>Welcome to my Portfolio</h2>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am Shivanand Thote, a Computer Science Engineering student with a strong passion for innovation, problem-solving, 
+                    and building technology that creates real-world impact. Alongside my academic journey, I have actively worked with Disha
+                    Foundation, contributing to healthcare-focused initiatives such as tuberculosis detection and community health support.</p>
+                    
+                    <p>I enjoy exploring interdisciplinary ideas at the intersection of AI, engineering, and social good, and I have conceptualized 
+                    multiple tech-driven solutions ranging from smart health systems and agricultural automation to infrastructure safety and 
+                    transportation technologies.</p>
+                    
+                    <p>Known for my communication skills, curiosity, and collaborative mindset, I am driven to continuously learn, experiment, 
+                    and turn bold ideas into practical solutions that improve lives.</p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <h3>2027</h3>
+                        <p>Expected Graduation</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>6.8</h3>
+                        <p>CGPA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <h3>About Me</h3>
-        <p>
-            I am Shivanand Thote, a Computer Science Engineering student with a strong passion for innovation, problem-solving, 
-            and building technology that creates real-world impact. Alongside my academic journey, I have actively worked with Disha
-            Foundation, contributing to healthcare-focused initiatives such as tuberculosis detection and community health support.
-            I enjoy exploring interdisciplinary ideas at the intersection of AI, engineering, and social good, and I have conceptualized 
-            multiple tech-driven solutions ranging from smart health systems and agricultural automation to infrastructure safety and 
-            transportation technologies. Known for my communication skills, curiosity, and collaborative mindset, I am driven to 
-            continuously learn, experiment, and turn bold ideas into practical solutions that improve lives.
-        </p>
+    <!-- Skills Section -->
+    <section id="skills" class="section gray-bg">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">C</div>
+                <div class="skill-item">C++</div>
+            </div>
+        </div>
+    </section>
 
-        <h3>Skills</h3>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>C</li>
-            <li>C++</li>
-        </ul>
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education & Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">Present</span>
+                        <h3>DevOps Intern</h3>
+                        <p>SpringerCapital</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2027</span>
+                        <h3>B.Tech in Computer Science</h3>
+                        <p>LPU University | CGPA: 6.8</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <h3>Education</h3>
-        <table border="1">
-            <tr>
-                <th>Degree</th>
-                <th>College</th>
-            </tr>
-            <tr>
-                <td>B.Tech</td>
-                <td>LPU University</td>
-            </tr>
-            <tr>
-                <td>Branch</td>
-                <td>CSE</td>
-            </tr>
-            <tr>
-                <td>Year of Passing</td>
-                <td>2027</td>
-            </tr>
-            <tr>
-                <td>CGPA</td>
-                <td>6.8</td>
-            </tr>
-        </table>
+    <!-- Projects Section -->
+    <section id="projects" class="section gray-bg">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Local Advertisement App</h3>
+                    <p>An application that connects local businesses with potential customers through targeted advertisements based on user preferences and location.</p>
+                    <div class="tech-stack">
+                        <span>React Native</span>
+                        <span>Firebase</span>
+                        <span>Google Maps API</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>AI Powered OS Assistant</h3>
+                    <p>An AI-powered operating system assistant that helps users manage tasks, set reminders, and provide information using natural language processing.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>Speech Recognition API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <h3>Internships</h3>
-        <ul>
-            <li>DevOps Intern at SpringerCapital (Currently)</li>
-        </ul>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4>Email</h4>
+                        <a href="mailto:shivathoteboy@gmail.com">shivathoteboy@gmail.com</a>
+                    </div>
+                    <div class="info-item">
+                        <h4>Phone</h4>
+                        <a href="tel:+917558735040">+91 7558735040</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-        <section id="projects">
-            <h3>Projects</h3>
-            <ul>
-                <li>
-                    <strong>Project 1:</strong> Local Advertisement App<br>
-                    About: An application that connects local businesses with potential customers through targeted advertisements based on user preferences and location.<br>
-                    Technologies: React Native, Firebase, Google Maps API.
-                </li>
-                <br>
-                <li>
-                    <strong>Project 2:</strong> AI Powered OS Assistant<br>
-                    About: An AI-powered operating system assistant that helps users manage tasks, set reminders, and provide information using natural language processing.<br>
-                    Technologies: Python, TensorFlow, Speech Recognition API.
-                </li>
-            </ul>
-        </section>
-
-        <section id="contact">
-            <h3>Contact Me</h3>
-
-            <form action="#" method="post">
-
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <br><br>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <br><br>
-
-                <label>Gender:</label><br>
-                <input type="radio" name="gender" value="Male"> Male<br>
-                <input type="radio" name="gender" value="Female"> Female<br><br>
-
-                <h4>Select your Skills</h4>
-                <input type="checkbox" name="skills" value="HTML"> HTML<br>
-                <input type="checkbox" name="skills" value="CSS"> CSS<br>
-                <input type="checkbox" name="skills" value="JavaScript"> JavaScript<br>
-                <input type="checkbox" name="skills" value="Python"> Python<br>
-                <input type="checkbox" name="skills" value="C++"> C++<br><br>
-
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" cols="50" required></textarea>
-                <br><br>
-
-                <input type="submit" value="Submit">
-
-            </form>
-        </section>
-
-    </main>
-
-    <footer>
-        <p>
-            Email: <a href="mailto:shivathoteboy@gmail.com">shivathoteboy@gmail.com</a><br>
-            Phone: <a href="tel:+917558735040">+91 7558735040</a>
-        </p>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+           <p>Thanks for visiting my portfolio!</p>
+        </div>
     </footer>
-    
 
+    <script src="script.js"></script>
 </body>
 </html>
